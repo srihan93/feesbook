@@ -126,7 +126,6 @@
     <Content Include="lib\jquery\jquery.slim.js" />
     <Content Include="lib\jquery\jquery.slim.min.js" />
     <Content Include="lib\jquery\jquery.slim.min.map" />
-    <Content Include="Views\default.html" />
     <Content Include="Views\LoginPages\login.cshtml.cs" />
   </ItemGroup>
 
