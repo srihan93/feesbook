@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeesBook.ServiceHost", "FeesBook\FeesBook.ServiceHost.csproj", "{022EAAF2-1E5F-4CA9-A4FB-057BBB10E86E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeesBook.Domain", "FeesBook.Domain\FeesBook.Domain.csproj", "{374D1F82-A352-45B2-A13E-83DDEE3F8ADD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeesBook.Domain", "FeesBook.Domain\FeesBook.Domain.csproj", "{374D1F82-A352-45B2-A13E-83DDEE3F8ADD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeesBook.DataService", "FeesBook.DataService\FeesBook.DataService.csproj", "{20B8AB2A-CA44-4239-A97D-A94E1D78184B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeesBook.DataService", "FeesBook.DataService\FeesBook.DataService.csproj", "{20B8AB2A-CA44-4239-A97D-A94E1D78184B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeesBook.DataAccess", "FeesBook.DataAccess\FeesBook.DataAccess.csproj", "{CB02F2B3-0D67-40FF-9221-242A44A4C2FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeesBook.DataAccess", "FeesBook.DataAccess\FeesBook.DataAccess.csproj", "{CB02F2B3-0D67-40FF-9221-242A44A4C2FE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7BFBED29-4BC4-4EBF-BFE4-CFAB9F3609EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeesBook.ServiceHost", "FeesBook.ServiceHost\FeesBook.ServiceHost.csproj", "{99520992-8176-44C3-B93E-E2A7140ED8CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{022EAAF2-1E5F-4CA9-A4FB-057BBB10E86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{022EAAF2-1E5F-4CA9-A4FB-057BBB10E86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{022EAAF2-1E5F-4CA9-A4FB-057BBB10E86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{022EAAF2-1E5F-4CA9-A4FB-057BBB10E86E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{374D1F82-A352-45B2-A13E-83DDEE3F8ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{374D1F82-A352-45B2-A13E-83DDEE3F8ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{374D1F82-A352-45B2-A13E-83DDEE3F8ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,6 +31,10 @@ Global
 		{CB02F2B3-0D67-40FF-9221-242A44A4C2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB02F2B3-0D67-40FF-9221-242A44A4C2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB02F2B3-0D67-40FF-9221-242A44A4C2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99520992-8176-44C3-B93E-E2A7140ED8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99520992-8176-44C3-B93E-E2A7140ED8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99520992-8176-44C3-B93E-E2A7140ED8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99520992-8176-44C3-B93E-E2A7140ED8CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
