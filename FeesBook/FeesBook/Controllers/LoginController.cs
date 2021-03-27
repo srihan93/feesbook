@@ -10,7 +10,7 @@ namespace FeesBook.ServiceHost.Controllers
     {
         public IActionResult Index()
         {
-            return View("~/wwwroot/Views/LoginPages/login.cshtml");
+            return View("~/Views/LoginPages/login.cshtml");
         }
     }
 }
