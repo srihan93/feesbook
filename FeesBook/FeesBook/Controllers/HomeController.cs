@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 
 namespace FeesBook.ServiceHost.wwwroot.Controllers
 {
-    public class PaymentController : Controller
+    public class HomeController
     {
-        public IActionResult Index()
+
+        public string Index()
         {
-            return View();
+            return "Hello from Home";
         }
     }
 }

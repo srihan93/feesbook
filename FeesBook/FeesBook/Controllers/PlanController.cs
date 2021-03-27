@@ -4,10 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FeesBook.ServiceHost.wwwroot.Controllers
+namespace FeesBook.ServiceHost.Controllers
 {
-    public class RegisterController : Controller
+    public class PlanController : Controller
     {
+
         public IActionResult Index()
         {
             return View();

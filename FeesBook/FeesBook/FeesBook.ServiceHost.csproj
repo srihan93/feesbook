@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Controllers\HomeController.cs" />
+    <Content Include="Controllers\PaymentController.cs" />
+    <Content Include="Controllers\PlanController.cs" />
+    <Content Include="Controllers\RegisterController.cs" />
+    <Content Include="Controllers\UserController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
@@ -12,6 +20,9 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Models\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\scripts\" />
     <Folder Include="wwwroot\ViewModels\" />
     <Folder Include="wwwroot\ServiceModels\" />
   </ItemGroup>
