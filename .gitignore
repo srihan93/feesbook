@@ -5,3 +5,5 @@
 /.vs
 /FeesBook/FeesBook/obj
 /FeesBook/.vs/FeesBook/v15
+/FeesBook/FeesBook/bin/Debug/netcoreapp2.1
+/FeesBook/FeesBook/FeesBook.csproj.user
