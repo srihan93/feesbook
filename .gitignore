@@ -7,3 +7,12 @@
 /FeesBook/.vs/FeesBook/v15
 /FeesBook/FeesBook/bin/Debug/netcoreapp2.1
 /FeesBook/FeesBook/FeesBook.csproj.user
+/FeesBook/.vs/FeesBook/DesignTimeBuild
+/FeesBook/FeesBook/FeesBook.ServiceHost.csproj.user
+/FeesBook/FeesBook.DataAccess/bin/Debug/netcoreapp2.1
+/FeesBook/FeesBook.DataAccess/obj/Debug/netcoreapp2.1
+/FeesBook/FeesBook.DataAccess/obj
+/FeesBook/FeesBook.DataService/bin/Debug/netcoreapp2.1
+/FeesBook/FeesBook.DataService/obj
+/FeesBook/FeesBook.Domain/bin/Debug/netcoreapp2.1
+/FeesBook/FeesBook.Domain/obj
